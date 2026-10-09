@@ -35,10 +35,10 @@ La construcción y el control de versiones del proyecto se organizaron mediante 
 
 | Integrante | Rama Git | Módulo Asignado | Responsabilidad y Función |
 | --- | --- | --- | --- |
-| **Integrante 1** | `feature/database-setup` | `database.py`, `requirements.txt` | Conexión SQLite3 nativa, configuración de DDL para tablas, claves foráneas y función `seed_db()` para datos iniciales. |
-| **Integrante 2** | `feature/pydantic-schemas` | `schemas.py` | Definición de enumeraciones (`TipoRadicadoEnum`, `EstadoRadicadoEnum`) y validaciones DTO con Pydantic v2. |
-| **Integrante 3** | `feature/crud-operations` | `crud.py` | Implementación de la capa de acceso a datos con consultas SQL preparadas (CRUD) para Remitentes y Radicados. |
-| **Integrante 4** | `feature/api-routes` | `routes/`, `main.py` | Enrutamiento modular HTTP mediante `APIRouter`, gestión de excepciones HTTP y punto de entrada de FastAPI. |
+| **Integrante 1(Durman Vanegas)** | `feature/database-setup` | `database.py`, `requirements.txt` | Conexión SQLite3 nativa, configuración de DDL para tablas, claves foráneas y función `seed_db()` para datos iniciales. |
+| **Integrante 2(Liney Ricardo)** | `feature/pydantic-schemas` | `schemas.py` | Definición de enumeraciones (`TipoRadicadoEnum`, `EstadoRadicadoEnum`) y validaciones DTO con Pydantic v2. |
+| **Integrante 3(Steven Tobon)** | `feature/crud-operations` | `crud.py` | Implementación de la capa de acceso a datos con consultas SQL preparadas (CRUD) para Remitentes y Radicados. |
+| **Integrante 4(Thomas Isaza)** | `feature/api-routes` | `routes/`, `main.py` | Enrutamiento modular HTTP mediante `APIRouter`, gestión de excepciones HTTP y punto de entrada de FastAPI. |
 
 ---
 
