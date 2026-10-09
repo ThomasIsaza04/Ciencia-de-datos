@@ -1,0 +1,27 @@
+# Entorno Virtual
+.venv/
+venv/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos local (evita subir datos generados en desarrollo)
+*.db
+*.sqlite3
+correspondencia_sena.db
+
+# Configuración del editor e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Salidas de datos y temporales (opcional según tu caso)
+data/processed/*
+outputs/*
+!.gitkeep
